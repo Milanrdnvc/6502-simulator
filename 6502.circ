@@ -74,6 +74,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(160,90)" to="(200,90)"/>
     <wire from="(90,140)" to="(160,140)"/>
     <comp lib="7" loc="(240,90)" name="RisingEdge"/>
+    <comp loc="(70,230)" name="RAM"/>
     <comp lib="0" loc="(310,90)" name="Tunnel">
       <a name="label" val="rst"/>
     </comp>
@@ -87,7 +88,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(230,140)" name="Tunnel">
       <a name="label" val="CLK"/>
     </comp>
-    <comp loc="(90,260)" name="RAM"/>
   </circuit>
   <circuit name="CPU">
     <a name="circuit" val="CPU"/>
